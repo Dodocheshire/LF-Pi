@@ -5,8 +5,8 @@ experiment:
   threads: 8
 paths:
   # Global ResNet and CLIP concept features fit on disk; image/spatial inputs stream.
-  cache: /home/pengcheng/Pi-CBM/artifacts/cache-imagenet200
-  runs: /home/pengcheng/Pi-CBM/artifacts/runs-imagenet200
+  cache: /home/pengcheng/Pi-CBM/LF-Pi/artifacts/cache-imagenet200
+  runs: /home/pengcheng/Pi-CBM/LF-Pi/artifacts/runs-imagenet200
 data:
   dataset: imagenet
   root: /home/pengcheng/VLG-CBM/datasets/imagenet/ILSVRC/Data/CLS-LOC/ImageNet_train_200_10_clean

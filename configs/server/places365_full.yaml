@@ -2,8 +2,8 @@ extends: [places365.yaml]
 experiment:
   name: places365_full
 paths:
-  cache: /home/pengcheng/Pi-CBM/artifacts/cache-places365-full
-  runs: /home/pengcheng/Pi-CBM/artifacts/runs-places365-full
+  cache: /home/pengcheng/Pi-CBM/LF-Pi/artifacts/cache-places365-full
+  runs: /home/pengcheng/Pi-CBM/LF-Pi/artifacts/runs-places365-full
 data:
   # Zero selects every available image after the 50/class adapter holdout.
   train_per_class: 0

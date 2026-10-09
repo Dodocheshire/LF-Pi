@@ -3,7 +3,7 @@ experiment:
   name: cifar10_official
 paths:
   cache: /dev/shm/pi-cbm-cifar10-official
-  runs: /home/pengcheng/Pi-CBM/artifacts/runs-cifar-official
+  runs: /home/pengcheng/Pi-CBM/LF-Pi/artifacts/runs-cifar-official
 data:
   concepts: configs/concepts/cifar10_official.txt
   batch_size: 512

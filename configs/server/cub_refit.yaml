@@ -2,6 +2,6 @@ extends: [cub.yaml]
 experiment:
   name: cub_refit
 paths:
-  runs: /home/pengcheng/Pi-CBM/artifacts/runs-cub-saga-refit
+  runs: /home/pengcheng/Pi-CBM/LF-Pi/artifacts/runs-cub-saga-refit
 training:
   stage: refit_head

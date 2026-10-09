@@ -6,7 +6,7 @@ unset HTTP_PROXY HTTPS_PROXY ALL_PROXY http_proxy https_proxy all_proxy
 
 root=/home/pengcheng/VLG-CBM/datasets/imagenet/ILSVRC/Data/CLS-LOC
 python=/home/pengcheng/miniconda3/envs/pi-cbm/bin/python
-script=/home/pengcheng/Pi-CBM/scripts/download_imagenet_subset.py
+script=/home/pengcheng/Pi-CBM/LF-Pi/scripts/download_imagenet_subset.py
 output="$root/ImageNet_train_200_10_clean"
 proxy_args=()
 if [[ -n "${PI_CBM_SOCKS_PROXY:-}" ]]; then
