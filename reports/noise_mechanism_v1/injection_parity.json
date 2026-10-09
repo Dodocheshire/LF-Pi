@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "cases": {
+    "target_image": {
+      "mean_parity_max_abs": [
+        0.0,
+        0.0
+      ],
+      "fixed_eps_one_parity_max_abs": [
+        0.0,
+        0.0
+      ]
+    },
+    "target_internal": {
+      "mean_parity_max_abs": [
+        0.0,
+        0.0
+      ],
+      "fixed_eps_one_parity_max_abs": [
+        1.1920928955078125e-07,
+        2.3663043975830078e-05
+      ]
+    },
+    "target_global": {
+      "mean_parity_max_abs": [
+        0.0,
+        0.0
+      ],
+      "fixed_eps_one_parity_max_abs": [
+        5.587935447692871e-09,
+        4.76837158203125e-07
+      ]
+    }
+  },
+  "tolerance": {
+    "concept_atol": 0.0001,
+    "probability_atol": 2e-06,
+    "rtol": 1e-05
+  },
+  "checks": "Real archived CUB checkpoints vs original forward, epsilon=0 and epsilon=1 at all three sites. Floating-point summation/grouping can differ; mathematical Gaussian parameters match."
+}

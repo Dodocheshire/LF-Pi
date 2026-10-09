@@ -1,0 +1,101 @@
+{
+  "cifar10/image/sample_minus_mean_pp": {
+    "mean": 0.12,
+    "ci95": [
+      -0.1,
+      0.35024999999999634
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "cifar10/internal/sample_minus_mean_pp": {
+    "mean": -0.1,
+    "ci95": [
+      -0.2,
+      0.0
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "cifar10/global/sample_minus_mean_pp": {
+    "mean": 0.0,
+    "ci95": [
+      -0.07,
+      0.07
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "cifar10/clean_refit_minus_baseline_pp": {
+    "mean": 0.02,
+    "ci95": [
+      -0.1,
+      0.14
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "cifar100/image/sample_minus_mean_pp": {
+    "mean": 0.48,
+    "ci95": [
+      0.17,
+      0.8
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "cifar100/internal/sample_minus_mean_pp": {
+    "mean": -0.04,
+    "ci95": [
+      -0.17,
+      0.09
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "cifar100/global/sample_minus_mean_pp": {
+    "mean": -0.03,
+    "ci95": [
+      -0.12,
+      0.07
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "cifar100/clean_refit_minus_baseline_pp": {
+    "mean": -0.08,
+    "ci95": [
+      -0.32,
+      0.16
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "matched_global/stochastic_minus_mean_only_pp": {
+    "mean": -0.02,
+    "ci95": [
+      -0.09,
+      0.05
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "matched_global/mean_only_minus_projection_only_pp": {
+    "mean": 0.84,
+    "ci95": [
+      0.44,
+      1.23
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "matched_global/stochastic_minus_stochastic_mean_pp": {
+    "mean": -0.02,
+    "ci95": [
+      -0.08,
+      0.03
+    ],
+    "n": 10000,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  }
+}

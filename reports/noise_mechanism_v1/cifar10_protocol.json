@@ -1,0 +1,15 @@
+{
+  "source_sha256": "7573e9118adbf0aa29cf9226d2fef6f0f182c1ef958c75781e0ce46a946a4053",
+  "helper_sha256": "b37aab717129bb77f8c4d615976d742558966cbfcbc015b3b2866971002b83be",
+  "checkpoint_sha256": {
+    "image": "3053e0b53c5e2df1ec6e173cd45d79ab061a44c342051e7a0795260d69700ae1",
+    "internal": "5d305d660bfbd38be779e5bda322453b6022413dbca6908571edec088d64a718",
+    "global": "3941adc9df80bfc6ad24b945a9de407e4ca132962c6926edcb3a68f541651efc"
+  },
+  "baseline_sha256": "8c23299b248b481692bae470c03490e363d5d3660100c4054dfde869136b8447",
+  "historical_split_sha256": "00067d483e799471d0b47aaf513d415a2edb53bb99f10d3968101c4acef24643",
+  "samples": 8,
+  "evaluation": "complete official test set in original index order",
+  "clean_head_control": "unchanged clean projection/normalization, same 45000 train / 5000 adapter val, same SAGA settings, seed 0; no test selection",
+  "limits": "Old projection and concept bank were selected using test in upstream recipe. New controls cannot undo this; inference ablations do not isolate stochastic training."
+}

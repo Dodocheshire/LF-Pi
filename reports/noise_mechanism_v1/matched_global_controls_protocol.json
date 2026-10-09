@@ -1,0 +1,19 @@
+{
+  "source_sha256": "8c6d6bbfbf3598ae6b9a994edb2d1dd44686ced0a79a819d1c0735eaf008b505",
+  "baseline_sha256": "8c23299b248b481692bae470c03490e363d5d3660100c4054dfde869136b8447",
+  "modes": [
+    "projection_only",
+    "mean_only",
+    "stochastic"
+  ],
+  "seed": 0,
+  "epochs": 20,
+  "budget": "identical batch size 256, projection LR 1e-5, generator LR 3e-4, CE + anchor MSE + teacher cos_cubed + normalized energy; frozen backbone/head during adaptation",
+  "initialization": "same original clean projection/head and identical freshly initialized mean/scale generator state; stochastic/control have identical train order",
+  "selection": "adapter-val NLL before sparse head refit, common fixed MC1 draw for stochastic; never test",
+  "head_refit": "identical SAGA settings; train/val concepts frozen once; separate identical head RNG seed 2000 for every mode",
+  "limits": "Single new adaptation seed on one inherited old baseline with test-selected projection/bank; mechanistic pilot, not independent held-out SOTA result.",
+  "train_n": 45000,
+  "val_n": 5000,
+  "test_n": 10000
+}

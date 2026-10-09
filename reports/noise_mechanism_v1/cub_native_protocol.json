@@ -1,0 +1,649 @@
+{
+  "source_sha256": "3ebb81c124f1b60d7234bb9b6671013b5503b070ea753baf2cdffa874b09c190",
+  "annotation_sha256": "5ebb9782d589f41a9c046bc7c5b1365e01839308e7cf88cbe83c0fb6d5362d98",
+  "names_sha256": "d5b158c197a8548071114150b2384c55cbd8881b32e57816c6ccc1437e946a1a",
+  "selection": "literal single-color body parts, no patterns; >=10 known train positives and negatives",
+  "score": "max sigmoid(standardized LF concept value) over literal matches; MC uses sigmoid of average concept value, not average sigmoid",
+  "certainty_minimum": 3,
+  "threshold_fit": "4990 historical training images, original clean model only; same threshold for every case",
+  "mapped_attributes": 48,
+  "evaluated_attributes": 48,
+  "total_native_attributes": 312,
+  "cohort": {
+    "9": {
+      "name": "has_wing_color::blue",
+      "concept_ids": [
+        128
+      ],
+      "concepts": [
+        "blue wings"
+      ],
+      "threshold": 0.7264482378959656,
+      "train_known_positive": 232,
+      "train_known_negative": 4053
+    },
+    "10": {
+      "name": "has_wing_color::brown",
+      "concept_ids": [
+        207
+      ],
+      "concepts": [
+        "yellowish-brown wings"
+      ],
+      "threshold": 0.40268486738204956,
+      "train_known_positive": 1298,
+      "train_known_negative": 2987
+    },
+    "14": {
+      "name": "has_wing_color::grey",
+      "concept_ids": [
+        141,
+        159,
+        187
+      ],
+      "concepts": [
+        "gray wings",
+        "long, blue-gray wings",
+        "white body with gray wings"
+      ],
+      "threshold": 0.7652060389518738,
+      "train_known_positive": 1380,
+      "train_known_negative": 2905
+    },
+    "15": {
+      "name": "has_wing_color::yellow",
+      "concept_ids": [
+        201
+      ],
+      "concepts": [
+        "yellow wings"
+      ],
+      "threshold": 0.664689302444458,
+      "train_known_positive": 421,
+      "train_known_negative": 3864
+    },
+    "17": {
+      "name": "has_wing_color::green",
+      "concept_ids": [
+        145
+      ],
+      "concepts": [
+        "green wings"
+      ],
+      "threshold": 0.702059805393219,
+      "train_known_positive": 84,
+      "train_known_negative": 4201
+    },
+    "20": {
+      "name": "has_wing_color::black",
+      "concept_ids": [
+        2,
+        103,
+        125,
+        158
+      ],
+      "concepts": [
+        "Glossy black wings",
+        "a yellow body with black wings",
+        "black wings with white spots",
+        "long, black wings"
+      ],
+      "threshold": 0.7612766623497009,
+      "train_known_positive": 2054,
+      "train_known_negative": 2231
+    },
+    "24": {
+      "name": "has_upperparts_color::blue",
+      "concept_ids": [
+        127
+      ],
+      "concepts": [
+        "blue upperparts"
+      ],
+      "threshold": 0.7563031911849976,
+      "train_known_positive": 242,
+      "train_known_negative": 3835
+    },
+    "25": {
+      "name": "has_upperparts_color::brown",
+      "concept_ids": [
+        171
+      ],
+      "concepts": [
+        "pale brown upperparts"
+      ],
+      "threshold": 0.546518862247467,
+      "train_known_positive": 1214,
+      "train_known_negative": 2863
+    },
+    "29": {
+      "name": "has_upperparts_color::grey",
+      "concept_ids": [
+        133,
+        140
+      ],
+      "concepts": [
+        "dark blue-gray upperparts",
+        "gray upperparts"
+      ],
+      "threshold": 0.6646009683609009,
+      "train_known_positive": 1351,
+      "train_known_negative": 2726
+    },
+    "35": {
+      "name": "has_upperparts_color::black",
+      "concept_ids": [
+        134
+      ],
+      "concepts": [
+        "dark gray or black upperparts"
+      ],
+      "threshold": 0.5553331971168518,
+      "train_known_positive": 1865,
+      "train_known_negative": 2212
+    },
+    "51": {
+      "name": "has_underparts_color::white",
+      "concept_ids": [
+        143
+      ],
+      "concepts": [
+        "grayish-white underparts"
+      ],
+      "threshold": 0.5985402464866638,
+      "train_known_positive": 1859,
+      "train_known_negative": 2418
+    },
+    "59": {
+      "name": "has_back_color::brown",
+      "concept_ids": [
+        62,
+        67
+      ],
+      "concepts": [
+        "a reddish-brown back",
+        "a rusty-brown back"
+      ],
+      "threshold": 0.7210949063301086,
+      "train_known_positive": 962,
+      "train_known_negative": 2669
+    },
+    "63": {
+      "name": "has_back_color::grey",
+      "concept_ids": [
+        40
+      ],
+      "concepts": [
+        "a grey back"
+      ],
+      "threshold": 0.6628296375274658,
+      "train_known_positive": 1120,
+      "train_known_negative": 2511
+    },
+    "64": {
+      "name": "has_back_color::yellow",
+      "concept_ids": [
+        38
+      ],
+      "concepts": [
+        "a greenish-yellow back"
+      ],
+      "threshold": 0.6823298931121826,
+      "train_known_positive": 323,
+      "train_known_negative": 3308
+    },
+    "66": {
+      "name": "has_back_color::green",
+      "concept_ids": [
+        149,
+        164
+      ],
+      "concepts": [
+        "iridescent blue-green back",
+        "olive-green back"
+      ],
+      "threshold": 0.710028886795044,
+      "train_known_positive": 70,
+      "train_known_negative": 3561
+    },
+    "69": {
+      "name": "has_back_color::black",
+      "concept_ids": [
+        10,
+        27
+      ],
+      "concepts": [
+        "a black back",
+        "a dark blue or black back"
+      ],
+      "threshold": 0.7524644732475281,
+      "train_known_positive": 1338,
+      "train_known_negative": 2293
+    },
+    "115": {
+      "name": "has_breast_color::orange",
+      "concept_ids": [
+        23
+      ],
+      "concepts": [
+        "a bright orange breast"
+      ],
+      "threshold": 0.7305231690406799,
+      "train_known_positive": 119,
+      "train_known_negative": 4243
+    },
+    "116": {
+      "name": "has_breast_color::black",
+      "concept_ids": [
+        13
+      ],
+      "concepts": [
+        "a black breast"
+      ],
+      "threshold": 0.716955304145813,
+      "train_known_positive": 949,
+      "train_known_negative": 3413
+    },
+    "117": {
+      "name": "has_breast_color::white",
+      "concept_ids": [
+        90,
+        188
+      ],
+      "concepts": [
+        "a white breast",
+        "white breast with brown spots"
+      ],
+      "threshold": 0.5930827260017395,
+      "train_known_positive": 1726,
+      "train_known_negative": 2636
+    },
+    "118": {
+      "name": "has_breast_color::red",
+      "concept_ids": [
+        56
+      ],
+      "concepts": [
+        "a red breast"
+      ],
+      "threshold": 0.7758582830429077,
+      "train_known_positive": 186,
+      "train_known_negative": 4176
+    },
+    "130": {
+      "name": "has_throat_color::orange",
+      "concept_ids": [
+        169
+      ],
+      "concepts": [
+        "orange throat"
+      ],
+      "threshold": 0.7803131341934204,
+      "train_known_positive": 79,
+      "train_known_negative": 4500
+    },
+    "133": {
+      "name": "has_throat_color::red",
+      "concept_ids": [
+        61
+      ],
+      "concepts": [
+        "a red throat"
+      ],
+      "threshold": 0.7331780791282654,
+      "train_known_positive": 184,
+      "train_known_negative": 4395
+    },
+    "140": {
+      "name": "has_eye_color::yellow",
+      "concept_ids": [
+        106,
+        168
+      ],
+      "concepts": [
+        "a yellow eye",
+        "orange or yellow eyes"
+      ],
+      "threshold": 0.34682121872901917,
+      "train_known_positive": 82,
+      "train_known_negative": 4467
+    },
+    "179": {
+      "name": "has_under_tail_color::white",
+      "concept_ids": [
+        191,
+        192
+      ],
+      "concepts": [
+        "white undertail coverts",
+        "white undertail feathers"
+      ],
+      "threshold": 0.7133502960205078,
+      "train_known_positive": 826,
+      "train_known_negative": 2510
+    },
+    "209": {
+      "name": "has_belly_color::white",
+      "concept_ids": [
+        89
+      ],
+      "concepts": [
+        "a white belly"
+      ],
+      "threshold": 0.5584007501602173,
+      "train_known_positive": 1788,
+      "train_known_negative": 2401
+    },
+    "210": {
+      "name": "has_belly_color::red",
+      "concept_ids": [
+        55
+      ],
+      "concepts": [
+        "a red belly"
+      ],
+      "threshold": 0.8210386037826538,
+      "train_known_positive": 152,
+      "train_known_negative": 4037
+    },
+    "248": {
+      "name": "has_primary_color::blue",
+      "concept_ids": [
+        75,
+        126
+      ],
+      "concepts": [
+        "a small, blue body",
+        "blue plumage"
+      ],
+      "threshold": 0.8251679539680481,
+      "train_known_positive": 285,
+      "train_known_negative": 4377
+    },
+    "249": {
+      "name": "has_primary_color::brown",
+      "concept_ids": [
+        63,
+        78
+      ],
+      "concepts": [
+        "a reddish-brown body",
+        "a small, brown body"
+      ],
+      "threshold": 0.5944815874099731,
+      "train_known_positive": 1220,
+      "train_known_negative": 3442
+    },
+    "253": {
+      "name": "has_primary_color::grey",
+      "concept_ids": [
+        17,
+        22,
+        43,
+        137
+      ],
+      "concepts": [
+        "a black or dark grey plumage",
+        "a blue-gray body",
+        "a large, gray body",
+        "gray body with black spots"
+      ],
+      "threshold": 0.7002421617507935,
+      "train_known_positive": 1366,
+      "train_known_negative": 3296
+    },
+    "254": {
+      "name": "has_primary_color::yellow",
+      "concept_ids": [
+        39,
+        102,
+        103,
+        130
+      ],
+      "concepts": [
+        "a greenish-yellow body",
+        "a yellow body",
+        "a yellow body with black wings",
+        "bright golden-yellow plumage"
+      ],
+      "threshold": 0.7624546885490417,
+      "train_known_positive": 680,
+      "train_known_negative": 3982
+    },
+    "256": {
+      "name": "has_primary_color::green",
+      "concept_ids": [
+        80,
+        144
+      ],
+      "concepts": [
+        "a small, green body",
+        "green plumage"
+      ],
+      "threshold": 0.7691932916641235,
+      "train_known_positive": 91,
+      "train_known_negative": 4571
+    },
+    "258": {
+      "name": "has_primary_color::orange",
+      "concept_ids": [
+        198
+      ],
+      "concepts": [
+        "yellow or orange plumage"
+      ],
+      "threshold": 0.5573840141296387,
+      "train_known_positive": 161,
+      "train_known_negative": 4501
+    },
+    "260": {
+      "name": "has_primary_color::white",
+      "concept_ids": [
+        36,
+        46,
+        70,
+        186,
+        187,
+        189
+      ],
+      "concepts": [
+        "a grayish-white body",
+        "a large, white body",
+        "a slender, white body",
+        "white body",
+        "white body with gray wings",
+        "white plumage"
+      ],
+      "threshold": 0.7109583616256714,
+      "train_known_positive": 1373,
+      "train_known_negative": 3289
+    },
+    "261": {
+      "name": "has_primary_color::red",
+      "concept_ids": [
+        4
+      ],
+      "concepts": [
+        "a Scarlet-red body"
+      ],
+      "threshold": 0.8153828382492065,
+      "train_known_positive": 178,
+      "train_known_negative": 4484
+    },
+    "269": {
+      "name": "has_leg_color::yellow",
+      "concept_ids": [
+        170
+      ],
+      "concepts": [
+        "orange-yellow legs"
+      ],
+      "threshold": 0.3722233772277832,
+      "train_known_positive": 75,
+      "train_known_negative": 3732
+    },
+    "272": {
+      "name": "has_leg_color::pink",
+      "concept_ids": [
+        173
+      ],
+      "concepts": [
+        "pale pink legs"
+      ],
+      "threshold": 0.7784512042999268,
+      "train_known_positive": 90,
+      "train_known_negative": 3717
+    },
+    "273": {
+      "name": "has_leg_color::orange",
+      "concept_ids": [
+        167
+      ],
+      "concepts": [
+        "orange legs"
+      ],
+      "threshold": 0.21160924434661865,
+      "train_known_positive": 395,
+      "train_known_negative": 3412
+    },
+    "275": {
+      "name": "has_leg_color::white",
+      "concept_ids": [
+        161
+      ],
+      "concepts": [
+        "long, white legs"
+      ],
+      "threshold": 0.4447408616542816,
+      "train_known_positive": 159,
+      "train_known_negative": 3648
+    },
+    "276": {
+      "name": "has_leg_color::red",
+      "concept_ids": [
+        176
+      ],
+      "concepts": [
+        "red legs"
+      ],
+      "threshold": 0.7306540012359619,
+      "train_known_positive": 132,
+      "train_known_negative": 3675
+    },
+    "279": {
+      "name": "has_bill_color::brown",
+      "concept_ids": [
+        76
+      ],
+      "concepts": [
+        "a small, brown bill"
+      ],
+      "threshold": 0.5173574090003967,
+      "train_known_positive": 414,
+      "train_known_negative": 4177
+    },
+    "284": {
+      "name": "has_bill_color::yellow",
+      "concept_ids": [
+        100,
+        101,
+        196
+      ],
+      "concepts": [
+        "a yellow beak",
+        "a yellow bill with a red spot",
+        "yellow bill"
+      ],
+      "threshold": 0.4196467697620392,
+      "train_known_positive": 278,
+      "train_known_negative": 4313
+    },
+    "287": {
+      "name": "has_bill_color::pink",
+      "concept_ids": [
+        52
+      ],
+      "concepts": [
+        "a pink bill"
+      ],
+      "threshold": 0.25836971402168274,
+      "train_known_positive": 22,
+      "train_known_negative": 4569
+    },
+    "288": {
+      "name": "has_bill_color::orange",
+      "concept_ids": [
+        44
+      ],
+      "concepts": [
+        "a large, orange bill"
+      ],
+      "threshold": 0.7541773915290833,
+      "train_known_positive": 334,
+      "train_known_negative": 4257
+    },
+    "289": {
+      "name": "has_bill_color::black",
+      "concept_ids": [
+        87
+      ],
+      "concepts": [
+        "a thin, black bill"
+      ],
+      "threshold": 0.3620905876159668,
+      "train_known_positive": 2065,
+      "train_known_negative": 2526
+    },
+    "291": {
+      "name": "has_bill_color::red",
+      "concept_ids": [
+        47
+      ],
+      "concepts": [
+        "a long, orange-red beak"
+      ],
+      "threshold": 0.3396959900856018,
+      "train_known_positive": 182,
+      "train_known_negative": 4409
+    },
+    "299": {
+      "name": "has_crown_color::yellow",
+      "concept_ids": [
+        104,
+        105
+      ],
+      "concepts": [
+        "a yellow cap on the head",
+        "a yellow crown"
+      ],
+      "threshold": 0.7404271960258484,
+      "train_known_positive": 346,
+      "train_known_negative": 4186
+    },
+    "304": {
+      "name": "has_crown_color::black",
+      "concept_ids": [
+        16
+      ],
+      "concepts": [
+        "a black cap on the female"
+      ],
+      "threshold": 0.301998496055603,
+      "train_known_positive": 1597,
+      "train_known_negative": 2935
+    },
+    "306": {
+      "name": "has_crown_color::red",
+      "concept_ids": [
+        57
+      ],
+      "concepts": [
+        "a red cap on the head"
+      ],
+      "threshold": 0.7746807336807251,
+      "train_known_positive": 214,
+      "train_known_negative": 4318
+    }
+  },
+  "limits": "Partial whole-image attribute mapping; no localization ground truth for these scores; no new independent model training."
+}

@@ -1,5 +1,7 @@
 # Pi-CBM实验
 
+> 2026-10-09 机制核查：本文保留历史实验记录。新增配对训练、真实加噪图、人工前景/背景干预和概念标签审计见 [NOISE_MECHANISM_REPORT.md](NOISE_MECHANISM_REPORT.md)。大幅提升不能直接归因于随机噪声，NEC 降低也不等同于背景概念减少。
+
 ## 1. pipeline
 
 在[LF-CBM](https://arxiv.org/abs/2304.06129)的“图像特征→可命名概念→稀疏分类头”路径中，借鉴[PiNI](https://arxiv.org/abs/2412.10817)的可学习高斯扰动，选择不同位置注入噪声，观察分类性能、概念保持程度。

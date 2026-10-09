@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-10-09",
+  "selection": "SALF-CBM, CVPR 2025, for spatial background-mechanism tests using a fixed released checkpoint",
+  "sota_scope": "Competitive results reported in each primary paper; no universal accuracy SOTA or successful noise transfer claimed.",
+  "candidates": [
+    {
+      "method": "SALF-CBM",
+      "venue": "CVPR 2025",
+      "paper": "https://arxiv.org/abs/2502.20134",
+      "official_repository": "https://github.com/itaybenou/show-and-tell",
+      "upstream_commit": "e45f8645afde37a8a7ae66db6987b5a8a53552a0",
+      "spatial_concept_maps": true,
+      "training_entry_available": false,
+      "released_checkpoint_available": true,
+      "local_checks": "Downloaded official ImageNet checkpoint, exact forward parity, nonzero mean/std head gradients, full 50000-image baseline accuracy 75.56%",
+      "limitations": "Full original training code is still announced as coming soon. CUB pretrained checkpoint is not released in this archive. New wrapper is an adaptation entry, not training reproduction.",
+      "chosen": true,
+      "submodule": "SALF-Pi"
+    },
+    {
+      "method": "PGCM",
+      "venue": "ICML 2026, as identified by the official repository",
+      "paper": "https://arxiv.org/abs/2604.16076",
+      "official_repository": "https://github.com/daviddebot/PGCM",
+      "upstream_commit": "8e8366cc0734383a430370afc01e81aba69e89d2",
+      "training_entry_available": true,
+      "entry": "main.py --config configs/config_clevrhans_pre_segm.yml --device cuda:0",
+      "local_checks": "Cloned and read architecture, configs and dataset builders; no training/inference reproduction claimed",
+      "limitations": "README requires Python >=3.12 and includes an outdated clone command. CLEVR-Hans3 uses object segmentation and supervised concepts. CUB configuration uses global pretrained embeddings. Current task path hard-thresholds concepts; CE cannot directly train a generator through that threshold. Native noisy_prob corrupts labels, not visual Gaussian injection.",
+      "chosen": false
+    },
+    {
+      "method": "FCBM",
+      "venue": "AAAI 2026",
+      "paper": "https://arxiv.org/abs/2511.06678",
+      "official_repository": "https://github.com/deepopo/FCBM",
+      "upstream_commit": "843eba4739d0aeb79651c75f06f57064737c473d",
+      "training_entry_available": true,
+      "entry": "main_vlm.py",
+      "local_checks": "Cloned and inspected training entry/configs; no reproduction claimed",
+      "limitations": "Flexible global concepts and hypernetwork weights; lacks native spatial concept maps for direct background grounding.",
+      "chosen": false
+    }
+  ]
+}

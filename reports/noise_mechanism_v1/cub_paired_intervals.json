@@ -1,0 +1,119 @@
+{
+  "target_image/sample_minus_mean/original": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_image/sample_minus_mean/swap_bg": {
+    "mean": 0.0,
+    "ci95": [
+      -0.375,
+      0.375
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_image/sample_minus_mean/neutral_bg": {
+    "mean": 0.125,
+    "ci95": [
+      0.0,
+      0.375
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_image/mean_minus_baseline/swap_bg": {
+    "mean": 0.375,
+    "ci95": [
+      -0.5,
+      1.25
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_internal/sample_minus_mean/original": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_internal/sample_minus_mean/swap_bg": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_internal/sample_minus_mean/neutral_bg": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_internal/mean_minus_baseline/swap_bg": {
+    "mean": 0.75,
+    "ci95": [
+      -0.75,
+      2.25
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_global/sample_minus_mean/original": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_global/sample_minus_mean/swap_bg": {
+    "mean": -0.125,
+    "ci95": [
+      -0.375,
+      0.0
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_global/sample_minus_mean/neutral_bg": {
+    "mean": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "target_global/mean_minus_baseline/swap_bg": {
+    "mean": 0.375,
+    "ci95": [
+      -0.75,
+      1.5
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  },
+  "image_sigma_background_minus_foreground": {
+    "mean": -0.00015441463321621995,
+    "ci95": [
+      -0.00018157018936472012,
+      -0.00012798325222865972
+    ],
+    "n": 800,
+    "method": "paired image bootstrap, 5000 replicates; conditional on old checkpoint"
+  }
+}

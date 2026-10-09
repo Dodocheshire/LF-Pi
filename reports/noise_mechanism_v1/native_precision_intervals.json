@@ -1,0 +1,50 @@
+{
+  "target_image/mean/original_minus_baseline_precision_pp": {
+    "mean": -0.0763624906539917,
+    "ci95": [
+      -0.2438826858997345,
+      0.1016919314861296
+    ],
+    "method": "paired image bootstrap 2000; fixed 48-attribute cohort and train-only thresholds; zero prediction precision=0"
+  },
+  "target_image/sample/original_minus_baseline_precision_pp": {
+    "mean": -0.09079873561859131,
+    "ci95": [
+      -0.25737039744853973,
+      0.08576497435569752
+    ],
+    "method": "paired image bootstrap 2000; fixed 48-attribute cohort and train-only thresholds; zero prediction precision=0"
+  },
+  "target_internal/mean/original_minus_baseline_precision_pp": {
+    "mean": -0.510910153388977,
+    "ci95": [
+      -0.8564344048500061,
+      -0.16319759190082556
+    ],
+    "method": "paired image bootstrap 2000; fixed 48-attribute cohort and train-only thresholds; zero prediction precision=0"
+  },
+  "target_internal/sample/original_minus_baseline_precision_pp": {
+    "mean": -0.5185574293136597,
+    "ci95": [
+      -0.8708136528730392,
+      -0.17723850905895253
+    ],
+    "method": "paired image bootstrap 2000; fixed 48-attribute cohort and train-only thresholds; zero prediction precision=0"
+  },
+  "target_global/mean/original_minus_baseline_precision_pp": {
+    "mean": -0.2984553575515747,
+    "ci95": [
+      -0.5243459343910217,
+      -0.0802422314882279
+    ],
+    "method": "paired image bootstrap 2000; fixed 48-attribute cohort and train-only thresholds; zero prediction precision=0"
+  },
+  "target_global/sample/original_minus_baseline_precision_pp": {
+    "mean": -0.29147863388061523,
+    "ci95": [
+      -0.5111458152532578,
+      -0.07590331137180331
+    ],
+    "method": "paired image bootstrap 2000; fixed 48-attribute cohort and train-only thresholds; zero prediction precision=0"
+  }
+}

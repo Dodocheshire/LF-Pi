@@ -1,0 +1,54 @@
+{
+  "images": [
+    {
+      "source_index": 26,
+      "class": "Black footed Albatross",
+      "mean_out_of_rgb_fraction": 9.964923810912296e-05,
+      "sample_out_of_rgb_fraction": 9.300595411332324e-05,
+      "mu_rms_max_percent": 0.4859011769294739,
+      "sigma_rms_max_percent": 0.2180737853050232
+    },
+    {
+      "source_index": 738,
+      "class": "Pelagic Cormorant",
+      "mean_out_of_rgb_fraction": 0.0,
+      "sample_out_of_rgb_fraction": 6.643282176810317e-06,
+      "mu_rms_max_percent": 0.2043740153312683,
+      "sigma_rms_max_percent": 0.18595120310783386
+    },
+    {
+      "source_index": 1488,
+      "class": "Eared Grebe",
+      "mean_out_of_rgb_fraction": 0.0,
+      "sample_out_of_rgb_fraction": 0.0,
+      "mu_rms_max_percent": 0.5376063585281372,
+      "sigma_rms_max_percent": 0.2170279175043106
+    },
+    {
+      "source_index": 2245,
+      "class": "Green Jay",
+      "mean_out_of_rgb_fraction": 0.0016674638027325273,
+      "sample_out_of_rgb_fraction": 0.0024978742003440857,
+      "mu_rms_max_percent": 0.4725181460380554,
+      "sigma_rms_max_percent": 0.22931234538555145
+    },
+    {
+      "source_index": 2991,
+      "class": "Brown Pelican",
+      "mean_out_of_rgb_fraction": 0.0,
+      "sample_out_of_rgb_fraction": 0.0,
+      "mu_rms_max_percent": 0.456561416387558,
+      "sigma_rms_max_percent": 0.2157147079706192
+    },
+    {
+      "source_index": 3724,
+      "class": "Lincoln Sparrow",
+      "mean_out_of_rgb_fraction": 0.0003520939499139786,
+      "sample_out_of_rgb_fraction": 0.0007971939048729837,
+      "mu_rms_max_percent": 0.5646607279777527,
+      "sigma_rms_max_percent": 0.29531949758529663
+    }
+  ],
+  "mu_shared_max_percent": 0.5646607279777527,
+  "sigma_shared_max_percent": 0.29531949758529663
+}
